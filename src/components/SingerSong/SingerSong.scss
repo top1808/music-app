@@ -1,0 +1,154 @@
+.singer-song_container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.singer-song_background {
+    background: url(https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-6-1024x416.jpg) no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    animation: appearance 1s ease;
+}
+
+
+.singer-song {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: auto;
+    animation: appearance 1s ease;
+    color: white;
+}
+
+.singer-song::-webkit-scrollbar { 
+    // display: none; 
+    width: 4px;
+}
+  
+  /* Handle */
+.singer-song::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+
+.singer-song_header {
+    border: 4px solid;
+    padding: 12px;
+    border-image: linear-gradient(to right, rgb(224, 127, 30), rgb(80, 80, 203)) 1 1 100%;
+    border-top: transparent;
+}
+
+.singer-song_img {
+    width: 300px;
+    height: 260px;
+    border-radius:50%;
+}
+
+
+.singer-song_info-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.singer-song_info-des {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+}
+
+.singer-song_btn-close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index:  99999999999999;
+    animation: appearance 1s ease;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    margin: 24px;
+}
+
+.singer-song_body-songs-header {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.singer-song_body-songs-body {
+    // display: flex;
+    // flex-wrap: nowrap;
+    // justify-content:space-between;
+    overflow: hidden;
+    margin: 0 -20px;
+}
+
+.singer-song_body-songs-item {
+    width: 20%;
+    padding: 0 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.singer-song_body-songs-item-img {
+    border-radius: 12px;
+    width: 240px;
+    height: 200px;
+}
+
+.singer-song_body-songs-item-name {
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.singer-song_body-songs-item-author {
+    font-size:0.9rem;
+    color: #ccc ;
+}
+
+.singer-song_body-songs-item:hover .singer-song_body-item-overlay {
+    display: flex;
+}
+
+.singer-song_body-item-overlay {
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 8px;
+    position:absolute;
+    top: 0;
+    right: 20px;
+    left: 20px;
+    bottom: 48px;
+    border-radius: 12px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn ease 0.3s;
+}
+
+.singer-song_body-item-overlay-icon {
+    font-size: 1.4rem;
+    border: 1px solid white;
+    padding:12px 14px;
+    border-radius: 50%;
+    color: white;
+}
+
+.singer-song_body-item-overlay-icon:hover {
+    opacity: 0.8;
+}
+
+

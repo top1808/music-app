@@ -1,0 +1,12 @@
+export const ON_GET_USER = "ON_GET_USER";
+export const ON_GET_CAROUSEL_SONG = "ON_GET_CAROUSEL_SONG";
+export const ON_GET_SONG_PLAYER = "ON_GET_SONG_PLAYER";
+export const ON_GET_SONG_MV = "ON_GET_SONG_MV";
+export const ON_GET_MV_PLAYER = "ON_GET_MV_PLAYER";
+export const ON_GET_SONG = "ON_GET_SONG";
+export const ON_GET_NEW_SONG = "ON_GET_NEW_SONG";
+export const ON_GET_VIET_NAM_SONG = "ON_GET_VIET_NAM_SONG";
+export const ON_GET_US_UK_SONG = "ON_GET_US_UK_SONG";
+export const ON_GET_K_POP_SONG = "ON_GET_K_POP_SONG";
+export const ON_GET_SINGERS = "ON_GET_SINGERS";
+export const ON_GET_SINGER = "ON_GET_SINGER";

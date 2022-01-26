@@ -1,0 +1,132 @@
+.video-clip-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.video-clip_background {
+    background: url(https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-6-1024x416.jpg) no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    animation: appearance 1s ease;
+}
+
+
+.video-clip {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    animation: appearance 1s ease;
+    color: white;
+}
+
+
+.video-clip_header {
+    margin: 32px;
+}
+
+.video-clip_img {
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+}
+
+.video-clip_des {
+    margin: 0 12px;
+    width: 200px;
+}
+
+.video-clip_name {
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.video-clip_author {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.video-clip-favourite {
+    margin: 0 12px;
+    font-size: 1.6rem;
+}
+
+.video-clip-option {
+    font-size: 1.6rem;
+}
+
+.video-clip_btn-close {
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video-clip_body-screen {
+    border-radius: 4px;
+}
+
+.video-clip_list-header {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 2rem;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.video-clip_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    height: 478px;
+    border-radius: 2px;
+}
+
+.video-clip_list-item-link {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    border-radius: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.video-clip_list-item-link.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.video-clip_list-item-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    color: white;
+}
+
+.video-clip_list-item-img {
+    width: 120px;
+    height: 80px;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.video-clip_list-item-name {
+    font-weight: 700;
+}
+
+.video-clip_list-item-author {
+    font-size: 0.8rem;
+}

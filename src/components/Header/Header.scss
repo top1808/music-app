@@ -1,0 +1,50 @@
+
+.header {
+    background-image: linear-gradient(to bottom, rgb(244, 172, 38), rgb(237, 99, 19));
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.navbar-logo-link {
+    margin-left: 20px;
+}
+
+.navbar-logo-img {
+    width: 200px;
+    height: 80px;
+    padding: 12px;
+}
+
+.navbar-search {
+    width: 100%;
+    margin: 0 20%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-search-input {
+    border-radius: 40px;
+}
+
+.navbar-search-icon {
+    position: absolute;
+    right: 12px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar-user {
+    margin-right: 20px;
+}
+
+.navbar-user-avt {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+}

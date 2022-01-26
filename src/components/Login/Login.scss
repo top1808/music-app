@@ -1,0 +1,45 @@
+.login {
+  height: 100vh;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5u0pQ6S1jEN5wj7jdjUHfXYe5wvtv8pWUMg&usqp=CAU) no-repeat center center/cover;
+  color: white;
+  z-index: 9999999;
+}
+
+.login-container {
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+}
+
+.login-header {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.password-icon,
+.user-icon {
+  font-size: 1.6rem;
+  margin-right: 12px;
+}
+
+.form-check-input:hover,
+.forgot-password:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-login {
+  width: 80%;
+  padding: 12px 0;
+  margin: 12px 0;
+  margin-left: 10%;
+}
+
+.login-suggetion {
+  text-align: center;
+}

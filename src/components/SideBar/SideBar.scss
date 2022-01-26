@@ -1,0 +1,114 @@
+.side-bar-wrap {
+    z-index: 9999;
+}
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20vw;
+    // background-color: rgb(72, 192, 210);
+    background-image: linear-gradient(to bottom right, rgb(72, 192, 210), rgb(21, 122, 217));
+    transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.side-bar-img {
+    height:80px;
+    width: 200px;
+    padding: 12px;
+}
+
+.side-bar-close {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 2rem;
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.side-bar-close:hover {
+    opacity: 0.4;
+}
+
+.side-bar-item {
+    user-select: none;
+}
+
+.side-bar-item-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    position: relative;
+    cursor: pointer;
+}
+
+.side-bar-item-link:hover {
+    color: white;
+}
+
+.side-bar-item:hover {
+    opacity: 0.6;
+}
+
+.side-bar-item.active .side-bar-item-link::after {
+    content: "";
+    position: absolute;
+    border-width:24px 12px;
+    border-color: transparent rgb(255, 128, 0) transparent transparent;
+    border-style: solid;
+    top: 0;
+    right: 0;
+}
+
+.side-bar-item.active {
+    background-color: rgba(212, 210, 210,0.2);
+    border-right: 2px solid rgb(255, 128, 0);
+}
+
+.side-bar-item-icon {
+    width: 40px;
+}
+
+.side-bar-login {
+    background-image: linear-gradient(to right bottom, rgb(244, 172, 38), rgb(237, 99, 19));
+    height: 160px;  
+    border-radius: 20px;
+    padding: 20px;
+    margin: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.side-bar-login-btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right bottom, rgb(29, 55, 225), rgb(63, 117, 234));
+    color: white;
+}
+
+.side-bar-login-btn:hover {
+    color: #ccc;
+}
+
+.side-bar-login-link {
+    text-decoration: none;
+}
+
+.side-bar-login-link:hover {
+    color: white;
+}
+
+.overlay {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1)
+}

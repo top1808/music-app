@@ -1,0 +1,119 @@
+.rank-song_header {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.rank-song_body {
+    position: relative;
+}
+
+.rank-song_body-item {
+    background-image: linear-gradient(to right bottom, rgb(244, 172, 38), rgb(237, 99, 19));
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.rank-song_body-item-header {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.rank-song_body-item-body {
+
+}
+
+.rank-song-item-body-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rank-song-item-body-item {
+    background-color: rgba(255,255,255, 0.2);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.rank-song-item-body-item:hover {
+    background-color: rgba(255,255,255, 0.4);
+}
+
+.rank-song-item-body-item-number {
+    font-size: 1.5rem;
+    padding: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.rank-song-item-body-img-wrap {
+    position: relative;
+}
+
+.rank-song-item-body-item-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px; 
+}
+
+.rank-song-item-body-item-des {
+    margin-left: 12px;
+    font-size: 0.8rem;
+}
+
+.rank-song-item-body-item-name {
+    font-weight: 600;
+}
+
+.rank-song-item-body-item-author {
+    font-size: 0.7rem;
+    // color: #ccc;
+}
+
+.rank-song-item-body-item-option {
+    margin-left: auto;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.rank-song-item-body-item-btn {
+    border-radius:40px;
+    border: 1px solid white;
+    margin-top: 12px;
+    margin-left: 34%;
+    color: white;
+}
+
+.rank-song-item-body-item-btn:hover {
+    background-color: rgba(255,255,255, 0.2);
+    color: rgb(40, 18, 236);
+    border-color: rgb(40, 18, 236);
+}
+
+.rank-song-item-body-img-wrap:hover .rank-song-item-overlay{
+    display: flex;
+}
+
+.rank-song-item-overlay {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    border-radius: 4px;
+    position:absolute;
+    top: 0;
+    height: 60px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn ease 0.4s;
+}
+
+.rank-song-item-overlay-icon  {
+    font-size: 0.8rem;
+    padding:4px 6px;
+    border-radius: 50%;
+    color: white;
+}
